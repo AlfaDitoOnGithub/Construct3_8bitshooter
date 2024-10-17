@@ -3,8 +3,9 @@ Alfadito Aulia Denova
 
 Teknik Pengembangan Game - Game Development Technique
 
-Using Construct 3, I Challange Myself to follow a tutorial provided witch is available here link[https://www.construct.net/en/tutorials/create-8-bit-style-side-1448]
+Using Construct 3, I Challange Myself to follow a tutorial provided witch is available here link[https://www.construct.net/en/tutorials/create-8-bit-style-side-1448] Of course changing certain things as i need them. 
 
 using resources that are royalty free and available in the net
 
-not yet done, need to add start screen, end screen, score, Health bar, and a Big Boss in the end. 
+Kinda done, Available to play on the pages.[https://alfaditoongithub.github.io/Construct3_8bitshooter/]
+
