@@ -32,8 +32,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.Sprite.Acts.SetX,
 		C3.Plugins.Sprite.Exps.X,
-		C3.Plugins.Text.Acts.SetX,
 		C3.Plugins.Sprite.Cnds.CompareX,
+		C3.Behaviors.scrollto.Cnds.IsEnabled,
+		C3.Plugins.Text.Acts.SetX,
 		C3.Plugins.Keyboard.Cnds.IsKeyDown,
 		C3.Behaviors.EightDir.Acts.SimulateControl,
 		C3.Plugins.Sprite.Cnds.OnCollision,
@@ -52,7 +53,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetTowardPosition,
 		C3.Plugins.Sprite.Cnds.OnDestroyed,
 		C3.Plugins.System.Acts.AddVar,
+		C3.Plugins.Text.Exps.X,
 		C3.Behaviors.Bullet.Acts.SetSpeed,
+		C3.Plugins.System.Cnds.CompareTime,
 		C3.Plugins.System.Cnds.EveryTick
 	];
 };

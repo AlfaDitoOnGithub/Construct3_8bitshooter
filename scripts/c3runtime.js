@@ -5001,15 +5001,15 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const n0 = p._GetNode(0);
+			return () => (n0.ExpObject() - 2000);
+		},
+		p => {
+			const n0 = p._GetNode(0);
 			return () => (n0.ExpObject() - 1000);
 		},
 		p => {
 			const n0 = p._GetNode(0);
 			return () => (n0.ExpObject() + 1000);
-		},
-		p => {
-			const n0 = p._GetNode(0);
-			return () => (n0.ExpObject() - 2000);
 		},
 		() => 5,
 		() => -100,
@@ -5050,6 +5050,7 @@ self.C3_ExpressionFuncs = [
 			return () => (n0.ExpObject() + 1200);
 		},
 		() => 20,
+		() => 15,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0(3);
