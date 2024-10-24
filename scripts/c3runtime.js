@@ -5050,15 +5050,14 @@ self.C3_ExpressionFuncs = [
 			return () => (n0.ExpObject() + 1200);
 		},
 		() => 20,
-		() => 50,
-		() => 40,
 		p => {
-			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() * 10);
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0(3);
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and(((("FINISH" + "\n") + "\n") + "SCORE :"), v0.GetValue());
+			const v1 = p._GetNode(1).GetVar();
+			return () => and(((("FINISH" + "\n") + "\n") + "SCORE :"), ((v0.GetValue() + (v1.GetValue() * 10)) + 200));
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
